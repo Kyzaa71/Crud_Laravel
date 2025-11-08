@@ -1,0 +1,167 @@
+/* ====== GLOBAL ====== */
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+  font-family: "Segoe UI", sans-serif;
+  padding-top: 80px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* ====== NAVBAR ====== */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1050;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.navbar .navbar-brand {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.navbar .navbar-brand:hover {
+  opacity: 0.8;
+}
+
+.navbar .icon-btn {
+  background: none;
+  border: none;
+  color: #212529;
+  font-size: 1.3rem;
+  margin-left: 12px;
+  transition: color 0.3s;
+}
+
+.navbar .icon-btn:hover {
+  color: #0d6efd;
+}
+
+/* ====== CONTAINER ====== */
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ====== FORM & INPUT ====== */
+.form-control,
+.form-select {
+  background-color: #ffffff;
+  color: #212529;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 4px rgba(13, 110, 253, 0.4);
+}
+
+input::placeholder {
+  color: #999;
+}
+
+/* ====== BUTTON ====== */
+.btn {
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  opacity: 0.9;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #0b5ed7;
+}
+
+.btn-warning {
+  color: #000;
+}
+
+.btn-danger {
+  color: #fff;
+}
+
+/* ====== TABLE ====== */
+.table-container {
+  margin-top: 25px;
+  margin-bottom: 35px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  border: 1px solid #dee2e6;
+}
+
+.table {
+  color: #212529;
+  border-color: #dee2e6;
+  background-color: #ffffff;
+}
+
+.table th {
+  background-color: #e9ecef;
+  color: #212529;
+  text-align: center;
+  padding: 12px;
+}
+
+.table td {
+  text-align: center;
+  padding: 12px;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f3f5;
+}
+
+/* ====== STATUS WARNA ====== */
+.text-success {
+  color: #198754 !important;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
+
+/* ====== FOOTER ====== */
+footer {
+  margin-top: 60px;
+  text-align: center;
+  padding: 30px 0;
+  border-top: 1px solid #dee2e6;
+  background-color: transparent;
+}
+
+footer a {
+  color: #6c757d;
+  margin: 0 10px;
+  font-size: 1.3rem;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+footer a:hover {
+  opacity: 0.7;
+}
+
+footer p {
+  color: #888;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
